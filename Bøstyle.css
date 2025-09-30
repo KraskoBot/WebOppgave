@@ -29,5 +29,6 @@
     #utvalg {text-align: center;}
     /* utvalg should be placed in the centre*/
     img {width: 150px;}
-    .Flex{display: flex; background-color: #794514;}
+    .Flex{display: flex; background-color: #794514;margin-bottom: 10px;}
     .Flex > div {background-color: #f1f1f1; margin: 10px;padding: 20px;font-size: 30px;}
+
