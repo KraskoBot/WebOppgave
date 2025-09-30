@@ -1,0 +1,33 @@
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fafafa; }
+    header { background: #006699; color: white; padding: 16px; }
+    header h1 { margin: 0; }
+    header p { margin: 4px 0px 12px; }
+    nav a { margin-right: 12px; color: #fff; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    nav > ul {list-style-type: none; margin: 0;padding: 0;overflow: hidden;background-color: #352e2e;}
+    nav > ul li {float: left;}
+    nav > ul li a {display: block;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+    nav a:hover { text-decoration: underline;}
+    nav >  ul li a:hover {background-color: #4c2992;}
+    main { max-width: 960px; margin: 10px 0 auto 0; padding: 5px 16px 24px; background-color: #c6803f; border-radius: 6px; }
+    main > p 
+    /*main uses > to edite child elements*/
+    section { margin: 24px 0; padding: 16px; border-radius: 6px; border: #333; border-style: dashed; }
+    #rekvisita { background: #e6f2ff; border: #333;border-radius: 8px;}
+    #installasjon { background: #fff0e6; border-radius: 8px; }
+    #utleie { background: #e6ffe6; border-radius: 8px;}
+    .kort { border: 1px solid #ccc; background: #fff; padding: 12px; border-radius: 6px; margin-top: 8px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 8px; background: #fff; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f2f2f2; }
+    label { display: block; margin-top: 8px; }
+    input, textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    button { margin-top: 8px; padding: 10px 14px; background: #006699; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #004d66; }
+    footer { background: #333; color: #ccc; text-align: center; padding: 12px; }
+    thead {text-align: center;} 
+    #utvalg {text-align: center;}
+    /* utvalg should be placed in the centre*/
+    img {width: 150px;}
+    .Flex{display: flex; background-color: #794514;}
+    .Flex > div {background-color: #f1f1f1; margin: 10px;padding: 20px;font-size: 30px;}
